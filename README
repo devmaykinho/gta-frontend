@@ -1,0 +1,29 @@
+<h1>Projeto fronted plataforma Singular</h1>
+
+O que é o singular
+Plataforma de aprendizado.
+
+Detalhes técnico
+Projeto em React com Typescript utilizando o Vite para build e execução. https://vitejs.dev/guide/
+
+- Como executar a aplicação
+  DESENVOLVIMENTO
+  - npm run dev
+- Como rodar os testes
+
+Ferramentas de desenvolvimento
+
+- PADRÃO DE CÓDIGO
+
+  - eslint/prettier
+    - https://www.npmjs.com/package/eslint-config-airbnb
+    - https://www.npmjs.com/package/eslint-config-airbnb-typescript
+    - https://prettier.io/
+  - Airbnb javascript style guid
+
+    - https://airbnb.io/javascript/react/
+
+  - https://typicode.github.io/husky/#/
+
+- STYLE
+- Styled components https://styled-components.com/docs

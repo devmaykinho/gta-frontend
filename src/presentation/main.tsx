@@ -6,7 +6,7 @@ export const Main: React.FC = () => {
     <div>
       <nav>
         <p>{/* <Link to="/funcionario">Funcionario</Link> */}</p>
-        <p>{/* <Link to="/holerite">Holerite</Link> */} d</p>
+        <p>{/* <Link to="/holerite">Holerite</Link> */}</p>
       </nav>
       <Outlet />
       <p>Footer</p>

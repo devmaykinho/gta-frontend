@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --fix .js,.jsx,.ts,.tsx ./src"
+    "lint": "eslint --ext .jsx,.js,.tsx,.ts src/"
   },
   "lint-staged": {
     "**/*.{js, jsx, ts, tsx}": [

@@ -10,6 +10,7 @@ export const Main: React.FC = () => {
       </nav>
       <Outlet />
       <p>Footer</p>
+      <button type="button">Login</button>
     </div>
   );
 };

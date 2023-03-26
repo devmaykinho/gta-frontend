@@ -27,6 +27,7 @@ export default defineConfig({
         ...configDefaults.exclude,
         'src/presentation/styles/**.*',
         '**/*.d.*',
+        'src/index.tsx',
       ],
     },
   },

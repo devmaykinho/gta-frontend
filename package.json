@@ -8,7 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .jsx,.js,.tsx,.ts src/",
-    "test": "vitest --watch=false"
+    "test": "vitest --watch=false",
+    "test:dev": "vitest",
+    "test:ci": "vitest run --coverage"
   },
   "lint-staged": {
     "**/*.{js, jsx, ts, tsx}": [
@@ -30,6 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-c8": "^0.29.7",
     "eslint": "^8.36.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",

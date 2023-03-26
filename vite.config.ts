@@ -17,6 +17,10 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/setupTests.ts'],
     coverage: {
+      lines: 95,
+      branches: 95,
+      functions: 95,
+      statements: 95,
       all: true,
       provider: 'c8',
       exclude: [
